@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { update } from "./userSlice";
 export default function Content() {
   const [name, setName] = useState("");
